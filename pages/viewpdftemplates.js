@@ -5,7 +5,7 @@ import AgeingOfRecForm from "../components/ageingRecForm"
 import AllowAgainstRecForm from "../components/allowanceForm"
 import ContractAssetsForm from "../components/contractAssetsForm"
 import MetaDataForm from "../components/metaDataForm"
-import PDFViewer from "../components/pdfviewer"
+import PDFViewer from "../components/pdfViewer"
 import ProvisionForm from "../components/provisionForm"
 
 const ViewPdfCont = styled.div`

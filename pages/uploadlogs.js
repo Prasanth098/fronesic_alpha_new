@@ -1,6 +1,6 @@
-import ProcessFiling from "../components/processfiling"
-import ProcessFillingDetails from "../components/processfillingdetails"
-import UploadFileBox from "../components/uploadfilebox"
+import ProcessFiling from "../components/processFilling"
+import ProcessFillingDetails from "../components/processFillingDetails"
+import UploadFileBox from "../components/uploadFileBox"
 import UploadSuccBox from "../components/uploadSuccBox"
 
 

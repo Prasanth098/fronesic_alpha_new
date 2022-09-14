@@ -183,7 +183,7 @@ function NewFillings() {
                 <table className="new-fill-body">
                     <tbody>
                         {data && data.map((d, index) => (
-                            <tr className="new-fill-body-row">
+                            <tr className="new-fill-body-row" key={index}>
                                 <td className="new-fill-body-data">
                                     <label className="new-fill-body-data-cell">{d.ciq_id}</label>
                                     <label className="new-fill-body-data-cell cust-width">{d.name_short}</label>

@@ -146,7 +146,7 @@ function ViewPdfTemplates() {
                         <ul>
                             {
                                 tabs && tabs.length != 0 && tabs.map((tab, index) => (
-                                    <div className="tab-div">
+                                    <div className="tab-div" key={index}>
                                         <label className={currTab === tab.name ? "border-left" : "dummy-border"}></label>
                                         <li key={index} className={currTab === tab.name ? "active" : ""} onClick={() => { handleCurrTab(tab.name) }}>{tab.name} </li>
                                     </div>
